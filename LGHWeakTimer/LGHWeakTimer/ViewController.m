@@ -7,10 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "LGHWeakTimer.h"
-@interface ViewController ()<LGHWeakTimerDelegate>
-
-@property (nonatomic,strong) LGHWeakTimer *timer;
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+@interface ViewController ()
 @end
 
 @implementation ViewController
@@ -18,15 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _timer = [[LGHWeakTimer alloc]init];
-    [_timer startPollingWithTimeInterval:2.0 repeats:YES];
-    _timer.delegate = self;
+    
 }
 
--(void)lgh_doPoll
-{
-    NSLog(@"%s",__FUNCTION__);
+- (IBAction)presentFirstController:(UIButton *)sender {
+    [self.navigationController pushViewController:[FirstViewController new] animated:YES];
 }
+
+- (IBAction)presentSecondController:(UIButton *)sender {
+    [self.navigationController pushViewController:[SecondViewController new] animated:YES];
+}
+
 
 
 @end

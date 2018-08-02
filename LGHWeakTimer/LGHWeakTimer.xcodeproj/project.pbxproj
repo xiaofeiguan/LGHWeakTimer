@@ -17,6 +17,8 @@
 		77CEFECD2113122B003ED74A /* LGHWeakTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEFECC2113122B003ED74A /* LGHWeakTimerUITests.m */; };
 		77CEFEDD211312C9003ED74A /* NSTimer+Support.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEFEDC211312C9003ED74A /* NSTimer+Support.m */; };
 		77CEFEE0211314CC003ED74A /* LGHWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEFEDF211314CC003ED74A /* LGHWeakTimer.m */; };
+		77CEFEE3211324B1003ED74A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEFEE2211324B1003ED74A /* FirstViewController.m */; };
+		77CEFEE6211324C2003ED74A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEFEE5211324C2003ED74A /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		77CEFEDC211312C9003ED74A /* NSTimer+Support.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Support.m"; sourceTree = "<group>"; };
 		77CEFEDE211314CC003ED74A /* LGHWeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHWeakTimer.h; sourceTree = "<group>"; };
 		77CEFEDF211314CC003ED74A /* LGHWeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHWeakTimer.m; sourceTree = "<group>"; };
+		77CEFEE1211324B1003ED74A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		77CEFEE2211324B1003ED74A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		77CEFEE4211324C2003ED74A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		77CEFEE5211324C2003ED74A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 				77CEFEA92113122B003ED74A /* AppDelegate.m */,
 				77CEFEAB2113122B003ED74A /* ViewController.h */,
 				77CEFEAC2113122B003ED74A /* ViewController.m */,
+				77CEFEE1211324B1003ED74A /* FirstViewController.h */,
+				77CEFEE2211324B1003ED74A /* FirstViewController.m */,
+				77CEFEE4211324C2003ED74A /* SecondViewController.h */,
+				77CEFEE5211324C2003ED74A /* SecondViewController.m */,
 				77CEFEAE2113122B003ED74A /* Main.storyboard */,
 				77CEFEB12113122B003ED74A /* Assets.xcassets */,
 				77CEFEB32113122B003ED74A /* LaunchScreen.storyboard */,
@@ -284,7 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77CEFEAD2113122B003ED74A /* ViewController.m in Sources */,
+				77CEFEE3211324B1003ED74A /* FirstViewController.m in Sources */,
 				77CEFEE0211314CC003ED74A /* LGHWeakTimer.m in Sources */,
+				77CEFEE6211324C2003ED74A /* SecondViewController.m in Sources */,
 				77CEFEB82113122B003ED74A /* main.m in Sources */,
 				77CEFEDD211312C9003ED74A /* NSTimer+Support.m in Sources */,
 				77CEFEAA2113122B003ED74A /* AppDelegate.m in Sources */,
