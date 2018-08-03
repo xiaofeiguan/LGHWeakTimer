@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7735CAFB2113F92D00B185A5 /* LGHWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7735CAFA2113F92D00B185A5 /* LGHWeakProxy.m */; };
+		7735CAFE2113FEB100B185A5 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7735CAFD2113FEB100B185A5 /* ThirdViewController.m */; };
+		7735CB01211401C900B185A5 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7735CB00211401C900B185A5 /* YYWeakProxy.m */; };
 		77CEFEAA2113122B003ED74A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEFEA92113122B003ED74A /* AppDelegate.m */; };
 		77CEFEAD2113122B003ED74A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEFEAC2113122B003ED74A /* ViewController.m */; };
 		77CEFEB02113122B003ED74A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CEFEAE2113122B003ED74A /* Main.storyboard */; };
@@ -39,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7735CAF92113F92D00B185A5 /* LGHWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHWeakProxy.h; sourceTree = "<group>"; };
+		7735CAFA2113F92D00B185A5 /* LGHWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHWeakProxy.m; sourceTree = "<group>"; };
+		7735CAFC2113FEB100B185A5 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7735CAFD2113FEB100B185A5 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		7735CAFF211401C900B185A5 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		7735CB00211401C900B185A5 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		77CEFEA52113122B003ED74A /* LGHWeakTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGHWeakTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CEFEA82113122B003ED74A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77CEFEA92113122B003ED74A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,6 +131,8 @@
 				77CEFEE2211324B1003ED74A /* FirstViewController.m */,
 				77CEFEE4211324C2003ED74A /* SecondViewController.h */,
 				77CEFEE5211324C2003ED74A /* SecondViewController.m */,
+				7735CAFC2113FEB100B185A5 /* ThirdViewController.h */,
+				7735CAFD2113FEB100B185A5 /* ThirdViewController.m */,
 				77CEFEAE2113122B003ED74A /* Main.storyboard */,
 				77CEFEB12113122B003ED74A /* Assets.xcassets */,
 				77CEFEB32113122B003ED74A /* LaunchScreen.storyboard */,
@@ -156,6 +167,10 @@
 				77CEFEDC211312C9003ED74A /* NSTimer+Support.m */,
 				77CEFEDE211314CC003ED74A /* LGHWeakTimer.h */,
 				77CEFEDF211314CC003ED74A /* LGHWeakTimer.m */,
+				7735CAF92113F92D00B185A5 /* LGHWeakProxy.h */,
+				7735CAFA2113F92D00B185A5 /* LGHWeakProxy.m */,
+				7735CAFF211401C900B185A5 /* YYWeakProxy.h */,
+				7735CB00211401C900B185A5 /* YYWeakProxy.m */,
 			);
 			path = LGHWeakTimer;
 			sourceTree = "<group>";
@@ -296,7 +311,10 @@
 				77CEFEAD2113122B003ED74A /* ViewController.m in Sources */,
 				77CEFEE3211324B1003ED74A /* FirstViewController.m in Sources */,
 				77CEFEE0211314CC003ED74A /* LGHWeakTimer.m in Sources */,
+				7735CAFB2113F92D00B185A5 /* LGHWeakProxy.m in Sources */,
+				7735CB01211401C900B185A5 /* YYWeakProxy.m in Sources */,
 				77CEFEE6211324C2003ED74A /* SecondViewController.m in Sources */,
+				7735CAFE2113FEB100B185A5 /* ThirdViewController.m in Sources */,
 				77CEFEB82113122B003ED74A /* main.m in Sources */,
 				77CEFEDD211312C9003ED74A /* NSTimer+Support.m in Sources */,
 				77CEFEAA2113122B003ED74A /* AppDelegate.m in Sources */,

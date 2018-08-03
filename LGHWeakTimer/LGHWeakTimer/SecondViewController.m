@@ -17,11 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
+    
     __weak SecondViewController *weakSelf = self;
-    _timer = [NSTimer scheduledTimerWithTimeInterval:2.0f target:weakSelf selector:@selector(nowSecond) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:2.0f target:weakSelf selector:@selector(showSecond) userInfo:nil repeats:YES];
     
 }
--(void)nowSecond
+-(void)showSecond
 {
     NSLog(@"%s",__FUNCTION__);
 }

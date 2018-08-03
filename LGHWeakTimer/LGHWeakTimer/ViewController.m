@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "ThirdViewController.h"
 @interface ViewController ()
 @end
 
@@ -27,6 +28,11 @@
 - (IBAction)presentSecondController:(UIButton *)sender {
     [self.navigationController pushViewController:[SecondViewController new] animated:YES];
 }
+
+- (IBAction)presentThirdController:(UIButton *)sender {
+    [self.navigationController pushViewController:[ThirdViewController new] animated:YES];
+}
+
 
 
 

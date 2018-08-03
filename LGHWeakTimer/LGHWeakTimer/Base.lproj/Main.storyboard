@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,14 +40,28 @@
                                     <action selector="presentFirstController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qcp-dq-kJL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1G2-kW-TJb">
+                                <rect key="frame" x="126" y="438" width="123" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3Pb-n2-IHQ"/>
+                                    <constraint firstAttribute="width" constant="123" id="D3u-9e-rV1"/>
+                                </constraints>
+                                <state key="normal" title="进入第三个控制器"/>
+                                <connections>
+                                    <action selector="presentThirdController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TNC-fV-ftG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fSu-b1-qta" firstAttribute="centerX" secondItem="aj8-7i-2qT" secondAttribute="centerX" id="QvX-H4-eiC"/>
+                            <constraint firstItem="1G2-kW-TJb" firstAttribute="top" secondItem="fSu-b1-qta" secondAttribute="bottom" constant="30" id="Vty-9e-dXW"/>
                             <constraint firstItem="aj8-7i-2qT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yzt-IJ-LdR"/>
+                            <constraint firstItem="1G2-kW-TJb" firstAttribute="centerX" secondItem="fSu-b1-qta" secondAttribute="centerX" id="hLo-7X-Yta"/>
                             <constraint firstItem="aj8-7i-2qT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vUd-ZE-Tqb"/>
                             <constraint firstItem="fSu-b1-qta" firstAttribute="top" secondItem="aj8-7i-2qT" secondAttribute="bottom" constant="30" id="xoh-Nv-KLg"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="WTP-KB-qsj"/>
                     </view>
                     <navigationItem key="navigationItem" id="4Mc-nr-lDh"/>
                 </viewController>

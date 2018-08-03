@@ -7,6 +7,7 @@
 //
 
 #import "NSTimer+Support.h"
+#import "LGHWeakProxy.h"
 
 @implementation NSTimer (Support)
 +(NSTimer*)scheduledTimerWithTimeInterval:(NSTimeInterval)interval block:(void (^)())block repeats:(BOOL)repeats
@@ -21,4 +22,13 @@
         block();
     }
 }
+
+
++(NSTimer*)lgh_scheduledTimerWithTimeInterval:(NSTimeInterval)ti target:(id)aTarget selector:(SEL)aSelector userInfo:(id)userInfo repeats:(BOOL)yesOrNo
+{
+    LGHWeakProxy *proxy = [LGHWeakProxy proxyWithTarget:aTarget];
+    return [NSTimer timerWithTimeInterval:ti target:proxy selector:aSelector userInfo:userInfo repeats:yesOrNo];
+}
+
+
 @end
